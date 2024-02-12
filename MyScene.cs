@@ -10,18 +10,18 @@ class Program
         int screenWidth =  1920;
         int screenHeight =  1080;
 
-        Raylib.InitWindow(screenWidth, screenHeight, "raylib [textures] example - texture loading and drawing");
+        Raylib.InitWindow(screenWidth, screenHeight, "Fruit Ninja");
 
-        Texture2D texture = Raylib.LoadTexture("Druif.png"); 
+        Texture2D texture = Raylib.LoadTexture("recources/Aardbei.png"); 
 
         while (!Raylib.WindowShouldClose())
         {
-        Raylib.BeginDrawing();
+            Raylib.BeginDrawing();
 
-            Raylib.ClearBackground(Color.White);
-            Raylib.DrawTexture(texture, screenWidth/2 - texture.Width/2, screenHeight/2 - texture.Height/2, Color.White);
+                Raylib.ClearBackground(Color.White);
+                Raylib.DrawTexture(texture, screenWidth/2 - texture.Width/2, screenHeight/2 - texture.Height/2, Color.White);
 
-        Raylib.EndDrawing();
+            Raylib.EndDrawing();
         }
 
         Raylib.UnloadTexture(texture); 
