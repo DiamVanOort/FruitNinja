@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q6kyhtlmII9mfQGYZjf9N0R2nCCmwt3XZP1IQLiS7/NpWi3WPEoS/FM0q6QjiP/PQIiPq7bUEVwrgUpkhK/Yqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ALFA-COLLEGE\\Documents\\Schooljaaren\\Schooljaar 2023-2024\\periode 3\\Framework\\FruitNinja\\FruitNinja.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALFA-COLLEGE\\.nuget\\packages\\raylib-cs\\6.0.0\\raylib-cs.6.0.0.nupkg.sha512",
+    "C:\\Users\\ALFA-COLLEGE\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
